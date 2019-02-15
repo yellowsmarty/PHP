@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Author: Nicole Amporn Binette
+Date: January 26th 2019
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Paint Job Calculator</title>
+        <link href = "main.css" type = "text/css" rel = "stylesheet"/>
+    </head>
+    <body>
+        <main>
+            <h1> Paint Job Calculator </h1>
+            <p> For every 115 square feet of wall space, one gallon of paint and eight hours of labor are required. </p>
+            <form action = "paintjob_calculator.php" method = "post">
+                <div id = "data">
+                    <label> Hourly Rate </label>
+                    <input type = "number" name = "hourly_rate" value = "20.00" disabled/><br>
+                    <label> Price per Gallon </label>
+                    <input type = "number" min = "1" step = "0.01" name = "price_per_gallon" required/><br>
+                    <label> Wall Area (square feet) </label>
+                    <input type = "number" min = "1" step = "0.01" name = "wall_area" required/><br>
+                </div>
+                <div id = "button">
+                    <label> &nbsp; </label>
+                    <input type = "submit" value = "Calculate Job Cost"/>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

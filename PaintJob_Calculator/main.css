@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2019, 3:07:11 PM
+    Author     : nicoleampornbinette
+*/
+
+body {
+    font-family: Ariel, Helvetica, sans-serif;
+}
+main {
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    margin: auto;
+    border: cornsilk 1em solid;
+    background: white;
+}
+h1 {
+    margin: 0;
+    color: goldenrod;
+}
+p {
+    color: darkolivegreen;
+}
+label {
+    float: left;
+    width: 10em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+    margin-bottom: .5em;
+}
+br {
+    clear: left;
+}
+
